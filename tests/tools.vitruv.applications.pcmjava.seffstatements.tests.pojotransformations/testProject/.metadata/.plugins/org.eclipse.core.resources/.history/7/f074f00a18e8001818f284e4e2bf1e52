@@ -1,0 +1,17 @@
+package test;
+
+import testRepository.WebGUIImpl;
+
+public class Test {
+
+	public static void main(String[] args) {
+		System.out.println("Starting...");
+		
+		WebGUIImpl test = new WebGUIImpl();
+		
+		for(int i = 0; i<10; i++)
+			test.httpDownload();
+		
+		System.out.println("Done!");
+	}
+}

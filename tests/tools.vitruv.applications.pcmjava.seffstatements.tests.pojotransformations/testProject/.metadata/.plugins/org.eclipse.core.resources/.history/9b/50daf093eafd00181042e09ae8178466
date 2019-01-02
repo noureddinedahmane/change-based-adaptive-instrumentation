@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" id="_iLqssP3qEeif59Pa9WLr2g" entityName="testRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_iXKyEP3qEeif59Pa9WLr2g" entityName="MediaStore">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j9pnsP3qEeif59Pa9WLr2g" entityName="MediaStore_provides_IMediaStore" providedInterface__OperationProvidedRole="_jDEOwP3qEeif59Pa9WLr2g"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_kay2sP3qEeif59Pa9WLr2g" describedService__SEFF="_jf6i0P3qEeif59Pa9WLr2g"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_kkK1IP3qEeif59Pa9WLr2g" describedService__SEFF="_jpANYP3qEeif59Pa9WLr2g"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_in7x8P3qEeif59Pa9WLr2g" entityName="WebGUI">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_jz2ygP3qEeif59Pa9WLr2g" entityName="WebGUI_provides_IWebGUI" providedInterface__OperationProvidedRole="_i6AZYP3qEeif59Pa9WLr2g"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kvvzAP3qEeif59Pa9WLr2g" entityName="Component_WebGUI_requires_IMediaStore" requiredInterface__OperationRequiredRole="_jDEOwP3qEeif59Pa9WLr2g"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_kHSE0P3qEeif59Pa9WLr2g" describedService__SEFF="_jW4ioP3qEeif59Pa9WLr2g"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_kQzNMP3qEeif59Pa9WLr2g" describedService__SEFF="_jNbEoP3qEeif59Pa9WLr2g"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_i6AZYP3qEeif59Pa9WLr2g" entityName="IWebGUI">
+    <signatures__OperationInterface id="_jNbEoP3qEeif59Pa9WLr2g" entityName="httpDownload"/>
+    <signatures__OperationInterface id="_jW4ioP3qEeif59Pa9WLr2g" entityName="httpUpload"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_jDEOwP3qEeif59Pa9WLr2g" entityName="IMediaStore">
+    <signatures__OperationInterface id="_jf6i0P3qEeif59Pa9WLr2g" entityName="upload"/>
+    <signatures__OperationInterface id="_jpANYP3qEeif59Pa9WLr2g" entityName="download"/>
+  </interfaces__Repository>
+</repository:Repository>

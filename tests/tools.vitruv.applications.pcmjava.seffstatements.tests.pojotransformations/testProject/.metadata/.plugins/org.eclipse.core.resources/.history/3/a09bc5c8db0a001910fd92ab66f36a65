@@ -1,0 +1,3 @@
+package testRepository.contracts;
+
+public interface IWebGUI { }

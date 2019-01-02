@@ -1,0 +1,6 @@
+INDEX VERSION 1.130+C:\Users\nd\git\Vitruv-Applications-PCMJavaAdditionals\tests\tools.vitruv.applications.pcmjava.pojotransformations.seffstatements.tests\testProject\.metadata\.plugins\org.eclipse.jdt.core
+134675085.index
+661177188.index
+2662807078.index
+769053679.index
+1420511983.index

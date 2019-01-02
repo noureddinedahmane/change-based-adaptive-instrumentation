@@ -1,0 +1,360 @@
+!SESSION 2018-12-28 21:03:29.926 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Framework arguments:  -version 3 -port 49956 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames tools.vitruv.applications.pcmjava.seffstatements.tests.pojotransformations.IncrementalTest_Noureddine -application org.eclipse.pde.junit.runtime.uitestapplication -product org.eclipse.platform.ide -testpluginname tools.vitruv.applications.pcmjava.seffstatements.tests.pojotransformations
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -consoleLog -version 3 -port 49956 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames tools.vitruv.applications.pcmjava.seffstatements.tests.pojotransformations.IncrementalTest_Noureddine -application org.eclipse.pde.junit.runtime.uitestapplication -product org.eclipse.platform.ide -data C:\Users\nd\git\Vitruv-Applications-PCMJavaAdditionals\tests\tools.vitruv.applications.pcmjava.pojotransformations.seffstatements.tests\testProject -dev file:C:/Users/nd/Desktop/git_ma_2/.metadata/.plugins/org.eclipse.pde.core/pde-junit/dev.properties -os win32 -ws win32 -arch x86_64 -consoleLog -testpluginname tools.vitruv.applications.pcmjava.seffstatements.tests.pojotransformations
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-12-28 21:03:55.080
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2018-12-28 21:04:03.779
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-12-28 21:04:03.779
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4717bdb3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10151ecd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-12-28 21:04:03.779
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6cc52eb1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.modelversioning.emfprofile.diagram.OpenURICommand,Open URI...,
+		Open file by URI,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@355a4108,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-12-28 21:04:09.385
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\nd'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-12-28 21:04:09.467
+!MESSAGE Removing part descriptor with the 'test.partDescFragment.ASampleE4View' id and the 'Sample View' description. Points to the invalid 'bundleclass://tools.vitruv.application.pcmjava.modelrefinement.tests/codeinstrumentationtest.parts.SampleView' class.
+
+!ENTRY org.eclipse.core.resources 4 2 2018-12-28 21:04:12.867
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.UnsupportedOperationException
+	at tools.vitruv.framework.vsum.VirtualModelManager.getVirtualModel(VirtualModelManager.java:27)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.initializeBuilder(VitruviusProjectBuilder.java:43)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.build(VitruviusProjectBuilder.java:63)
+	at tools.vitruv.domains.java.builder.VitruviusJavaBuilder.build(VitruviusJavaBuilder.java:30)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:330)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:544)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:120)
+	at tools.vitruv.framework.ui.monitorededitor.ProjectBuildUtils.issueIncrementalBuild(ProjectBuildUtils.java:44)
+	at tools.vitruv.framework.ui.monitorededitor.ProjectBuildUtils.issueIncrementalBuildForAllProjectsWithBuilder(ProjectBuildUtils.java:34)
+	at tools.vitruv.domains.java.builder.JavaBuildOnEclipseStartup.earlyStartup(JavaBuildOnEclipseStartup.java:15)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:77)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2747)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.apache.log4j 4 0 2018-12-28 21:04:13.014
+!MESSAGE tools.vitruv.framework.ui.monitorededitor.ProjectBuildUtils  - Could not issue initial build for project testAddNormalStatement_Fri_Dec_28_20_26_31_CET_2018:
+org.eclipse.core.internal.resources.ResourceException: Errors occurred during the build.
+
+
+!ENTRY org.eclipse.core.resources 4 2 2018-12-28 21:04:13.018
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.UnsupportedOperationException
+	at tools.vitruv.framework.vsum.VirtualModelManager.getVirtualModel(VirtualModelManager.java:27)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.initializeBuilder(VitruviusProjectBuilder.java:43)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.build(VitruviusProjectBuilder.java:63)
+	at tools.vitruv.domains.java.builder.VitruviusJavaBuilder.build(VitruviusJavaBuilder.java:30)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:330)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:544)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:120)
+	at tools.vitruv.framework.ui.monitorededitor.ProjectBuildUtils.issueIncrementalBuild(ProjectBuildUtils.java:44)
+	at tools.vitruv.framework.ui.monitorededitor.ProjectBuildUtils.issueIncrementalBuildForAllProjectsWithBuilder(ProjectBuildUtils.java:34)
+	at tools.vitruv.domains.java.builder.JavaBuildOnEclipseStartup.earlyStartup(JavaBuildOnEclipseStartup.java:15)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:77)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2747)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.apache.log4j 4 0 2018-12-28 21:04:13.021
+!MESSAGE tools.vitruv.framework.ui.monitorededitor.ProjectBuildUtils  - Could not issue initial build for project testAddNormalStatement_Fri_Dec_28_20_29_43_CET_2018:
+org.eclipse.core.internal.resources.ResourceException: Errors occurred during the build.
+
+
+!ENTRY org.eclipse.core.resources 4 2 2018-12-28 21:04:13.022
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.UnsupportedOperationException
+	at tools.vitruv.framework.vsum.VirtualModelManager.getVirtualModel(VirtualModelManager.java:27)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.initializeBuilder(VitruviusProjectBuilder.java:43)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.build(VitruviusProjectBuilder.java:63)
+	at tools.vitruv.domains.java.builder.VitruviusJavaBuilder.build(VitruviusJavaBuilder.java:30)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:330)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:544)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:120)
+	at tools.vitruv.framework.ui.monitorededitor.ProjectBuildUtils.issueIncrementalBuild(ProjectBuildUtils.java:44)
+	at tools.vitruv.framework.ui.monitorededitor.ProjectBuildUtils.issueIncrementalBuildForAllProjectsWithBuilder(ProjectBuildUtils.java:34)
+	at tools.vitruv.domains.java.builder.JavaBuildOnEclipseStartup.earlyStartup(JavaBuildOnEclipseStartup.java:15)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:77)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2747)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.apache.log4j 4 0 2018-12-28 21:04:13.044
+!MESSAGE tools.vitruv.framework.ui.monitorededitor.ProjectBuildUtils  - Could not issue initial build for project testAddNormalStatement_Fri_Dec_28_20_31_44_CET_2018:
+org.eclipse.core.internal.resources.ResourceException: Errors occurred during the build.
+
+
+!ENTRY org.eclipse.core.resources 4 2 2018-12-28 21:04:13.045
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.UnsupportedOperationException
+	at tools.vitruv.framework.vsum.VirtualModelManager.getVirtualModel(VirtualModelManager.java:27)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.initializeBuilder(VitruviusProjectBuilder.java:43)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.build(VitruviusProjectBuilder.java:63)
+	at tools.vitruv.domains.java.builder.VitruviusJavaBuilder.build(VitruviusJavaBuilder.java:30)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:330)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:544)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:120)
+	at tools.vitruv.framework.ui.monitorededitor.ProjectBuildUtils.issueIncrementalBuild(ProjectBuildUtils.java:44)
+	at tools.vitruv.framework.ui.monitorededitor.ProjectBuildUtils.issueIncrementalBuildForAllProjectsWithBuilder(ProjectBuildUtils.java:34)
+	at tools.vitruv.domains.java.builder.JavaBuildOnEclipseStartup.earlyStartup(JavaBuildOnEclipseStartup.java:15)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:77)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2747)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.apache.log4j 4 0 2018-12-28 21:04:13.048
+!MESSAGE tools.vitruv.framework.ui.monitorededitor.ProjectBuildUtils  - Could not issue initial build for project testAddNormalStatement_Fri_Dec_28_20_59_59_CET_2018:
+org.eclipse.core.internal.resources.ResourceException: Errors occurred during the build.
+
+
+!ENTRY org.eclipse.core.resources 4 2 2018-12-28 21:04:17.025
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.UnsupportedOperationException
+	at tools.vitruv.framework.vsum.VirtualModelManager.getVirtualModel(VirtualModelManager.java:27)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.initializeBuilder(VitruviusProjectBuilder.java:43)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.build(VitruviusProjectBuilder.java:63)
+	at tools.vitruv.domains.java.builder.VitruviusJavaBuilder.build(VitruviusJavaBuilder.java:30)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 2 2018-12-28 21:04:17.567
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.UnsupportedOperationException
+	at tools.vitruv.framework.vsum.VirtualModelManager.getVirtualModel(VirtualModelManager.java:27)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.initializeBuilder(VitruviusProjectBuilder.java:43)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.build(VitruviusProjectBuilder.java:63)
+	at tools.vitruv.domains.java.builder.VitruviusJavaBuilder.build(VitruviusJavaBuilder.java:30)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 2 2018-12-28 21:04:17.649
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.UnsupportedOperationException
+	at tools.vitruv.framework.vsum.VirtualModelManager.getVirtualModel(VirtualModelManager.java:27)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.initializeBuilder(VitruviusProjectBuilder.java:43)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.build(VitruviusProjectBuilder.java:63)
+	at tools.vitruv.domains.java.builder.VitruviusJavaBuilder.build(VitruviusJavaBuilder.java:30)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 2 2018-12-28 21:04:17.675
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.UnsupportedOperationException
+	at tools.vitruv.framework.vsum.VirtualModelManager.getVirtualModel(VirtualModelManager.java:27)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.initializeBuilder(VitruviusProjectBuilder.java:43)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.build(VitruviusProjectBuilder.java:63)
+	at tools.vitruv.domains.java.builder.VitruviusJavaBuilder.build(VitruviusJavaBuilder.java:30)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 75 2018-12-28 21:04:17.689
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 tools.vitruv.domains.java.builder 4 75 2018-12-28 21:04:17.689
+!MESSAGE Errors running builder 'tools.vitruv.domains.java.builder.VitruviusJavaBuilder' on project 'testAddNormalStatement_Fri_Dec_28_20_29_43_CET_2018'.
+!STACK 0
+java.lang.UnsupportedOperationException
+	at tools.vitruv.framework.vsum.VirtualModelManager.getVirtualModel(VirtualModelManager.java:27)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.initializeBuilder(VitruviusProjectBuilder.java:43)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.build(VitruviusProjectBuilder.java:63)
+	at tools.vitruv.domains.java.builder.VitruviusJavaBuilder.build(VitruviusJavaBuilder.java:30)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 tools.vitruv.domains.java.builder 4 75 2018-12-28 21:04:17.690
+!MESSAGE Errors running builder 'tools.vitruv.domains.java.builder.VitruviusJavaBuilder' on project 'testAddNormalStatement_Fri_Dec_28_20_31_44_CET_2018'.
+!STACK 0
+java.lang.UnsupportedOperationException
+	at tools.vitruv.framework.vsum.VirtualModelManager.getVirtualModel(VirtualModelManager.java:27)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.initializeBuilder(VitruviusProjectBuilder.java:43)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.build(VitruviusProjectBuilder.java:63)
+	at tools.vitruv.domains.java.builder.VitruviusJavaBuilder.build(VitruviusJavaBuilder.java:30)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 tools.vitruv.domains.java.builder 4 75 2018-12-28 21:04:17.690
+!MESSAGE Errors running builder 'tools.vitruv.domains.java.builder.VitruviusJavaBuilder' on project 'testAddNormalStatement_Fri_Dec_28_20_59_59_CET_2018'.
+!STACK 0
+java.lang.UnsupportedOperationException
+	at tools.vitruv.framework.vsum.VirtualModelManager.getVirtualModel(VirtualModelManager.java:27)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.initializeBuilder(VitruviusProjectBuilder.java:43)
+	at tools.vitruv.framework.ui.monitorededitor.VitruviusProjectBuilder.build(VitruviusProjectBuilder.java:63)
+	at tools.vitruv.domains.java.builder.VitruviusJavaBuilder.build(VitruviusJavaBuilder.java:30)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.emf.transaction 2 100 2018-12-28 21:04:23.694
+!MESSAGE Resource was re-loaded while it was being unloaded, probably because of unintentional proxy resolution: platform:/resource/testAddNormalStatement_Fri_Dec_28_21_04_13_CET_2018/src/testRepository/package-info.java
+
+!ENTRY org.eclipse.emf.transaction 2 100 2018-12-28 21:04:25.170
+!MESSAGE Resource was re-loaded while it was being unloaded, probably because of unintentional proxy resolution: platform:/resource/testAddNormalStatement_Fri_Dec_28_21_04_13_CET_2018/src/testRepository/MediaStore/package-info.java
+
+!ENTRY org.eclipse.emf.transaction 2 100 2018-12-28 21:04:26.024
+!MESSAGE Resource was re-loaded while it was being unloaded, probably because of unintentional proxy resolution: platform:/resource/testAddNormalStatement_Fri_Dec_28_21_04_13_CET_2018/src/testRepository/MediaStore/MediaStoreImpl.java
+
+!ENTRY org.eclipse.emf.transaction 2 100 2018-12-28 21:04:26.612
+!MESSAGE Resource was re-loaded while it was being unloaded, probably because of unintentional proxy resolution: platform:/resource/testAddNormalStatement_Fri_Dec_28_21_04_13_CET_2018/src/testRepository/WebGUI/package-info.java
+
+!ENTRY org.eclipse.emf.transaction 2 100 2018-12-28 21:04:27.156
+!MESSAGE Resource was re-loaded while it was being unloaded, probably because of unintentional proxy resolution: platform:/resource/testAddNormalStatement_Fri_Dec_28_21_04_13_CET_2018/src/testRepository/WebGUI/WebGUIImpl.java
+
+!ENTRY org.eclipse.emf.transaction 2 100 2018-12-28 21:04:27.856
+!MESSAGE Resource was re-loaded while it was being unloaded, probably because of unintentional proxy resolution: platform:/resource/testAddNormalStatement_Fri_Dec_28_21_04_13_CET_2018/src/testRepository/contracts/IWebGUI.java
+
+!ENTRY org.eclipse.emf.transaction 2 100 2018-12-28 21:04:28.687
+!MESSAGE Resource was re-loaded while it was being unloaded, probably because of unintentional proxy resolution: platform:/resource/testAddNormalStatement_Fri_Dec_28_21_04_13_CET_2018/src/testRepository/contracts/IMediaStore.java
+
+!ENTRY org.eclipse.emf.transaction 2 100 2018-12-28 21:04:41.585
+!MESSAGE Resource was re-loaded while it was being unloaded, probably because of unintentional proxy resolution: platform:/resource/testAddNormalStatement_Fri_Dec_28_21_04_13_CET_2018/src/testRepository/WebGUI/WebGUIImpl.java
+
+!ENTRY org.eclipse.emf.transaction 2 100 2018-12-28 21:04:41.612
+!MESSAGE Resource was re-loaded while it was being unloaded, probably because of unintentional proxy resolution: platform:/resource/testAddNormalStatement_Fri_Dec_28_21_04_13_CET_2018/src/testRepository/MediaStore/MediaStoreImpl.java
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-12-28 21:04:44.642
+!MESSAGE The workspace will exit with unsaved changes in this session.

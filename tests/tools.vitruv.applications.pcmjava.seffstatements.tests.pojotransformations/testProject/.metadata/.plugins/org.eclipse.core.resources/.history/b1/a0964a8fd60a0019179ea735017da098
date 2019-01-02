@@ -1,0 +1,3 @@
+package testRepository.MediaStore;
+
+public class MediaStoreImpl { }

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_PJQpIArXEemAIcrp85f9BQ" entityName="testRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_PWM48ArXEemAIcrp85f9BQ" entityName="MediaStore"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_PktPAArXEemAIcrp85f9BQ" entityName="WebGUI"/>
+</repository:Repository>

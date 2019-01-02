@@ -1,0 +1,8 @@
+package testRepository.WebGUI;
+
+import testRepository.contracts.IWebGUI;
+
+public class WebGUIImpl implements IWebGUI {
+	public void httpUpload () {
+	}
+ }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>testAddNormalStatement_Fri_Dec_28_21_04_13_CET_2018</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>tools.vitruv.domains.java.builder.JavaBuilder.id</name>
+			<arguments>
+				<dictionary>
+					<key>fileExtensions</key>
+					<value>repository, </value>
+				</dictionary>
+				<dictionary>
+					<key>virtualModelName</key>
+					<value>C:\Users\nd\AppData\Local\Temp\vitruv-test-workspace8368916844722120055\testAddNormalStatement_vsum__Fri_Dec_28_21_04_15_CET_2018</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="testRepository.WebGUIImpl"/>
+<fullyQualifiedTypeName name="kieker.extention.MonitoringFactory"/>
+<fullyQualifiedTypeName name="kieker.extention.CustomizedResponseTimeRecord"/>
+<fullyQualifiedTypeName name="testRepository.contracts.IMediaStore"/>
+<fullyQualifiedTypeName name="kieker.monitoring.record.LoopRecord"/>
+<fullyQualifiedTypeName name="kieker.monitoring.factory.MonitoringFactory"/>
+<fullyQualifiedTypeName name="kieker.monitoring.record.InternalActionRecord"/>
+<fullyQualifiedTypeName name="kieker.monitoring.record.BranchRecord"/>
+<fullyQualifiedTypeName name="kieker.monitoring.record.ServiceRecord"/>
+<fullyQualifiedTypeName name="testRepository.MediaStoreImpl"/>
+</qualifiedTypeNameHistroy>

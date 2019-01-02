@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_9A9nAArWEemWmZ3Sv13fXg" entityName="testRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_9LTOwArWEemWmZ3Sv13fXg" entityName="MediaStore"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_9fJX0ArWEemWmZ3Sv13fXg" entityName="WebGUI"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_9tIwgArWEemWmZ3Sv13fXg" entityName="IWebGUI">
+    <signatures__OperationInterface id="_-BSbkArWEemWmZ3Sv13fXg" entityName="httpDownload"/>
+    <signatures__OperationInterface id="_-KjsUArWEemWmZ3Sv13fXg" entityName="httpUpload"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_93Gk0ArWEemWmZ3Sv13fXg" entityName="IMediaStore"/>
+</repository:Repository>

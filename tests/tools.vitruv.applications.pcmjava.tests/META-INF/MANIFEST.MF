@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Vitruvius PCM-Java Tests
+Bundle-SymbolicName: tools.vitruv.applications.pcmjava.tests
+Bundle-Version: 0.1.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.junit,
+ org.apache.log4j;bundle-version="1.2.15",
+ com.google.guava,
+ org.eclipse.xtext.xbase.lib,
+ org.eclipse.xtend.lib.macro,
+ org.eclipse.xtend.lib,
+ org.palladiosimulator.pcm;bundle-version="3.2.0",
+ org.emftext.language.java.resource.java,
+ tools.vitruv.framework.util,
+ tools.vitruv.framework.tuid,
+ tools.vitruv.testutils,
+ tools.vitruv.framework.change,
+ tools.vitruv.framework.change.processing,
+ tools.vitruv.domains.java.echange,
+ tools.vitruv.applications.pcmjava.util,
+ tools.vitruv.applications.pcmjava.tests.util,
+ tools.vitruv.applications.pcmjava.pojotransformations.java2pcm.tests,
+ tools.vitruv.applications.pcmjava.pojotransformations.pcm2java.tests,
+ tools.vitruv.applications.pcmjava.ejbtransformations.java2pcm.tests
+Export-Package: tools.vitruv.applications.pcmjava.tests,
+ tools.vitruv.applications.pcmjava.tests.transformations

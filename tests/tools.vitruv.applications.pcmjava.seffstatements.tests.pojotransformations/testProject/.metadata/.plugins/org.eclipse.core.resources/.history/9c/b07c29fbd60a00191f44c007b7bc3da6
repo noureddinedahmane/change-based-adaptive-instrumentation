@@ -1,0 +1,5 @@
+package testRepository.MediaStore;
+
+import testRepository.contracts.IMediaStore;
+
+public class MediaStoreImpl { }
